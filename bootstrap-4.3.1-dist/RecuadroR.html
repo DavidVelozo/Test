@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Todo entrena FIT</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#btBack").click(function() {
+                location.href = "indexEjercicios2.html";
+            });
+        });
+    </script>
+</head>
+
+<body class="bg-dark text-dark">
+    <div class="container-fluid">
+        <div class="row bg-danger">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-danger text-white">
+                    <a class="navbar-brand" href="#"><img src="img/gym.png" class="mr-3 rounded bg-white" alt="Todo entrena FIT" width="64"> Todo entrena FIT</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Quienes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Donaciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Acerca de...</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header bg-success" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link text-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Rutina GYM frecuencia 3 - Básica
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <b>Calentamiento:</b> Movilidad articular de Hombro , cuello , codo , muñeca, cadera , rodilla , tobillo. 10 min.<br><br>
+                                <b>Día 1:</b>
+                                <ul>
+                                    <li>Maquina peck deck (pecho)</li>
+                                    <li>Hummer (pecho)</li>
+                                    <li>Vuelos laterales y frontales (Hombro)</li>
+                                    <li>Leg curl (piernas)</li>
+                                    <li>Estocadas en el lugar (pierna)</li>
+                                    <li>Elevacion talon maquina</li>
+                                </ul>
+                                <b>Día 2:</b>
+                                <ul>
+                                    <li>Triceps polea (brazo)</li>
+                                    <li>Triceps patada</li>
+                                    <li>Plancha + crunch de abdominales (abdomen)</li>
+                                    <li>Extensión lumbar</li>
+                                </ul>
+                                <b>Día 3:</b>
+                                <ul>
+                                    <li>Pull down (espalda)</li>
+                                    <li>Remo con mancuerna (espalda)</li>
+                                    <li>Remo polea</li>
+                                    <li>Sentadilla</li>
+                                    <li>Leg extensión (pierna)</li>
+                                    <li>Patada glúteo</li>
+                                    <li>Abducción de cadera</li>
+                                </ul>
+                                <b>Fecuencía:</b> Tres días a la semana<br><br>
+                                <button type="button" class="btn btn-success btn-lg btn-block">Realizar rutina</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header bg-warning" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed text-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Rutina GYM frecuencia 4 - Media
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Collapsible Group Item #3
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <button type="button" id="btBack" class="btn btn-primary btn-lg btn-block">Volver</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
